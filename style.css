@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Carter+One&family=Josefin+Sans&family=Merienda+One&family=Niconne&family=Roboto+Serif:ital,wght@1,100;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border:3px solid white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 10px;
+
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('img/Events.jpg');
+    background-size: cover;
+}
+
+.box{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+
+.first{
+    height: 100vh;
+}
+
+.first{
+width: 75%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.text{
+    font-size: 50px;
+    font-style: italic;
+
+}
+.sectag{
+    padding: 15px;
+    font-size: 30px;
+    font-weight:bolder;
+    color:goldenrod ;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merienda One', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Roboto Serif', sans-serif;
+    
+
+}
+
+.sectagr{
+    font-size: 23px;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merienda One', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Roboto Serif', sans-serif;
+}
+.textb{
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid snow;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn1{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    background: none;
+    color: goldenrod;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.btn:hover{
+    color: blueviolet;
+}
+.btn1:hover{
+    color: blue;
+}
+
+.secr{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secl{
+    flex-direction: row-reverse;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img2{
+    height: 315px;
+    border: 5px solid goldenrod;
+    border-radius: 2px solid white;
+}
+
+.para{
+    padding: 0% 65px;
+}
+
+.contact{
+    background-color: lightcyan;
+    height:500px
+    
+}
+
+.txt{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Carter One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merienda One', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Roboto Serif', sans-serif;
+    font-size: 35px;
+}
+
+.form1{
+    max-width: 400px;
+    margin: 25px auto;
+}
+.form{
+    margin: 10px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid goldenrod;
+    border-radius: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textf{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold; 
+}
+
+.res{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+
+.resline{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+    
+}
+
+
+.line{
+    width: 33px;
+    background-color: aliceblue;
+    height: 4px;
+    margin: 3px 3px;
+}
+@media only screen and (max-width: 1112px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .resline{
+        display: block;
+    }
+    
+    .visi{
+        opacity: 0;
+    }
+    .resline{
+        display: block;
+    
+    }
+}
+    
